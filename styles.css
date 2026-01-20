@@ -484,7 +484,7 @@
 }
 
 .footer-background{
-  position:absolute;
+  position: absolute;
   inset:0;
   background:url("assets/footer-bg.png") center;
 }
@@ -522,6 +522,8 @@
 /* footer end */
 
 @media screen and (max-width:576px) {
+  
+   /* navigation start */
     .navigation-bar{
     
         width: 100%;
@@ -543,6 +545,8 @@
         display: none;
     }
 
+   /* hero section added */
+     
     .icons-rounded{
     width: 160px;
     height: 160px;
@@ -578,7 +582,7 @@
     }
 
 
-
+/* grid section css  */
 
     .grid-box{
         display: flex;
